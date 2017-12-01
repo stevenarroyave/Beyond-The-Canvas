@@ -1,5 +1,5 @@
 function setup() {
-  var canvas = createCanvas(600, 600);
+  var canvas = createCanvas(500, 500);
   canvas.parent("myContainer");
 
 //  var text = createDic('This is an HTML string!')
@@ -19,6 +19,6 @@ function draw() {
    ellipse(random(width), random(height), size, size);
    rect(random(width), random(height), size, size);
    triangle(random(width), random(height),random(200), random(200), random(200), random(200));
-   
+
  }
 }
